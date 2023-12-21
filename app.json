@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "erivan.couttolenc"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "name": "Limitles",
+    "slug": "AppTwo",
+    "version": "18.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.erivan.couttolenc.AppTwo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.erivan.couttolenc.AppTwo",
+      "versionCode": 18,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.READ_CONTACTS",
+        "android.permission.READ_PHONE_STATE",
+        "android.permission.VIBRATE",
+        "android.permission.FOREGROUND_SERVICE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "googleMapsApiKey": "AIzaSyAjnv4o6WIlP1S9mu0c_Fb8dBPHjzRCSqM",
+      "eas": {
+        "projectId": "c36f4f22-2c21-4036-9263-a8af6d965c5f"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c36f4f22-2c21-4036-9263-a8af6d965c5f"
+    }
+  }
+}
